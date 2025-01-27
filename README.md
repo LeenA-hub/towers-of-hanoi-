@@ -7,6 +7,7 @@ it takes 5 recursive calls to return to the original function. since n = 4, 3, 2
 "2 3" this move takes the first disk and transfers it from tower 2 to tower 3.
 4) how will be the second recursive cal to towers()?
 towers(3,2,3). explanation: it move remaining 3 disks from tower 2 to tower 3 and uses tower 1 as spare.
+5) for towers(8,1,2), the algorithm need 2^n -1 steps to complete. with n = 8 (8 disks), this equals 255 steps, meaning 255 lines of output.
 
 Description:  
 In this lab, I ran the gcc -o command in the terminal, and the program executed correctly. I was able to separate stdout and stderr, and I also figured out how to hide both outputs when necessary.  
